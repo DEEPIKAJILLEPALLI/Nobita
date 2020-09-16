@@ -1,15 +1,70 @@
-
 <html>
-  <head>
-    <script src="https://cdn.hellosign.com/public/js/embedded/v2.9.0/embedded.development.js"></script>
-  </head>
-  <body>
-    <script>
-      const client = new HelloSign();
-      signUrl="https://app.hellosign.com/editor/embeddedSign?signature_id=0ddc3ad319bee9591df23a9a168bbfbb&token=2ed7c96ee434dc3379b0d650e56615a7"
-      client.open(signUrl, {
-        clientId: 'e26eb150d197da85152d4e7163a5b32b'
-      });
-    </script>
-  </body>
+
+<head>
+    <title>NOBITA</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="nobita.css">
+</head>
+
+<body>
+    <div class="nobita">
+        <!-- <div class="hair"></div> -->
+        <div class="Nobita-hair"></div>
+        <div class="header">
+            <div id="nobita-faceshape">
+                <div class="nobita-left-eye">
+					<div class="nobita-sparkle">
+						<div class="nobita-innersparkle"></div>
+					</div>
+                </div>
+                <div class="nobita-specs-right"></div>
+
+				<div class="nobita-nose">
+					<div class="nobita-innersparkle"></div>
+                </div>
+                <div class="nobita-right-eye">
+					<div class="nobita-sparkle">
+						<div class="nobita-innersparkle"></div>
+					</div>
+                </div>
+                <div class="nobita-specs-left"></div>
+                <div class="nobita-mouth">
+                    <!-- <div class="nobita-inner-mouth"></div> -->
+                </div>
+            </div>
+        </div>
+        <div id="nobita-neck"></div>
+        <div id="nobita-bodypart">
+            <div id="LCollar"></div>
+            <div id="RCollar"></div>
+        </div>
+        <div class="left-hand">
+            <div id="Lpalm">
+                <div id="LpalmLines-1"></div>
+                <div id="LpalmLines-2"></div>
+                <div id="LpalmLines-3"></div>
+            </div>
+
+        </div>
+        <div class="right-hand">
+            <div id="Rpalm">
+                <div id="RpalmLines-1"></div>
+                <div id="RpalmLines-2"></div>
+                <div id="RpalmLines-3"></div>
+            </div>
+
+        </div>
+        <div id="nobita-bottompart"></div>
+        <div id="nobita-legs">
+            <div class="legsL"></div>
+            <div class="legsR"></div>
+            <div class="legsL-socks"></div>
+            <div class="legsR-socks"></div>
+            <div id="left-shoe"></div>
+            <div id="right-shoe"></div>
+        </div>
+       
+    </div>
+</body>
+
 </html>
